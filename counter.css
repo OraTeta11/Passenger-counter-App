@@ -1,0 +1,88 @@
+ body {
+    background-image: url("station.jpeg");
+    background-size: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center; 
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    
+}
+
+.container {
+    background: #b86a68   ;
+    max-width: 30%;
+    margin: auto;
+    border: 3px solid #b86a68 ;
+    border-radius: 50px;
+    width: 100%;
+    padding: 25px;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 2em;
+}
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    margin-bottom: 5px;
+    border-radius: 50px;
+    cursor:pointer ;
+    transition: all o.3s ease;
+}
+
+/* Hover effect - slightly enlarge the button */
+button:hover {
+    background-color: #45a049;  /* Darker green on hover */
+    transform: scale(1.1);  /* Slightly increase size on hover */
+}
+
+/* Active effect - simulate a "press" effect */
+button:active {
+    transform: scale(0.95);  /* Slightly decrease size when button is clicked */
+    background-color: #3e8e41;  /* Even darker green when clicked */
+}
+#save-btn {
+    background: #4c0e04;
+}
+
+#save-btn:hover {
+    background-color: darkgoldenrod;
+}
+
+#save-btn:active {
+    background-color: #005f72;
+}
+
+
+
+#increment-btn {
+    background: darkred;
+}
+#increment-btn:hover {
+    background-color: darkgoldenrod;
+}
+#increment-btn:active {
+    background-color: #005f72;
+}
+
+
+#save-el {
+    margin-top: 20px;
+    margin-top: 20px;  /* Optional: Adds space above the "Previous entries" */
+    margin-bottom: 10px; 
+    font-size: 20px;
+    color: rgb(19, 28, 4);
+}
